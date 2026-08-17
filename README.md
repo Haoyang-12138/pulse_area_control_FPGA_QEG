@@ -38,15 +38,7 @@ The notebook separates:
 
 This allows the general measurement and feedback framework to be adapted to different experimental hardware.
 
-Possible input/output devices include:
-
-* oscilloscopes;
-* Red Pitaya;
-* AWGs;
-* RFSoCs;
-* other ADC/DAC hardware.
-
-The Red Pitaya therefore does not have to be used as both the ADC and DAC.
+The code does not have to be used for the Red Pitaya.
 
 ### Independent pulse generation, measurement, and feedback
 
