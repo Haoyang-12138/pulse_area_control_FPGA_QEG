@@ -1,10 +1,8 @@
 # Pulse Area Control on Red Pitaya FPGA — QEG
 A real-time optical pulse-area measurement and feedback-control system developed for the QEG experimental platform.
 This project provides two complementary approaches for pulse-area measurement and feedback control:
-1. **Host-computer control using a Jupyter notebook** — pulse measurements are acquired from experimental hardware, while pulse-area calculation and PID feedback are performed on the host computer.
-2. **FPGA-based control using a Red Pitaya** — pulse generation, measurement, and PID feedback are implemented directly in the FPGA for lower-latency closed-loop control.
-
----
+1. **Host-computer control using a Jupyter notebook** — pulse measurements are acquired from any experimental hardware, while pulse-area calculation and PID feedback are performed on the host computer: compensate for slow drift on the scale of seconds.
+2. **FPGA-based control using a Red Pitaya** — pulse generation, measurement, and PID feedback are directly in the FPGA for lower-latency closed-loop control: latency 16 clock cycles (108 ns)
 
 ## Repository Structure
 
