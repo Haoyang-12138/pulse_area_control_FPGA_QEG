@@ -43,8 +43,7 @@ Then start measurement:
 python3 run_pulse_control.py sample --duration-s 1000 --interval-s 1 --csv measurement.csv
 ```
 Observe something like this：
-![sample window](image.png)
-
+<img width="834" height="544" alt="image" src="https://github.com/user-attachments/assets/93e93228-1e76-4e8c-8759-4f6a77e0f81a" />
 
 ## 6. Calibrate the area-to-DAC gain
 
