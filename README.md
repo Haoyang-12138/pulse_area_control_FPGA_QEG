@@ -17,7 +17,7 @@
 scp redpitaya_pid_3.15.bit
 run_pulse_control.py
 pulse_control.py
-cat /root/redpitaya_pid_3.15.bit > /dev/xdevcfg
+cat /root/redpitaya_pid_3.15.bit >/dev/xdevcfg
 ```
 ## 3. Edit `run_pulse_control.py`
 
