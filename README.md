@@ -13,9 +13,12 @@
 | `DIO2_P` | Oscilloscope| `reference_window_active` marker, showing measurement window. |
 
 ## 2. Load the bitstream and py
-scp redpitaya_pid_3.15.bit run_pulse_control.py pulse_control.py
+```bash
+scp redpitaya_pid_3.15.bit
+run_pulse_control.py
+pulse_control.py
 cat /root/redpitaya_pid_3.15.bit > /dev/xdevcfg
-
+```
 ## 3. Edit `run_pulse_control.py`
 
 Only need to change the configuration block at the top, above `Sections below do not need any changes`. Keep `pulse_control.py` unchanged for routine runs.
