@@ -1,12 +1,10 @@
 # SOP for using pulse area control v3.15
 
-Version:FPGA 3.15 
 Files: `redpitaya_pid_3.15.bit`, `run_pulse_control.py`, `pulse_control.py`  
 Order: wire up → load FPGA → configure → measurement only → calibrate → feedback
 
 ## 1. Wiring
 
-Power everything down or disable the relevant outputs before changing BNC/GPIO connections. Use a common ground and check the input voltage levels before connecting anything.
 
 | Red Pitaya | Connect to | Purpose |
 |---|---|---|
